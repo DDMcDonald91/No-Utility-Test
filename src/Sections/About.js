@@ -19,7 +19,7 @@ export default function About() {
               <li><h4>No Discord.</h4></li>
               <li><h4>No Stress.</h4></li>
             </ul>
-            <Col>
+            <Col md={6}>
                <Cards
                     width='65%'
                     image={sample1} 
@@ -30,7 +30,7 @@ export default function About() {
                     thirdDetail="Doxxed Team" 
                     />
             </Col>
-            <Col>
+            <Col md={6}>
                 <Cards 
                     width='65%'
                     image={sample2} 
