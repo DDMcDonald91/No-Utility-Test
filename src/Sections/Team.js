@@ -14,7 +14,7 @@ export default function Team() {
               <div style={{backgroundColor: 'black', height: '2px', width: '25%', margin: '15px auto'}}></div>
             </p>
         <Row>
-            <Col>
+            <Col md={6}>
             <Cards
                 width='65%'
                 image={wout} 
@@ -25,7 +25,7 @@ export default function Team() {
                 thirdDetail="Foundation" 
                 />
             </Col>
-            <Col>
+            <Col md={6}>
             <Cards
                 width='65%'
                 image={dnik} 
