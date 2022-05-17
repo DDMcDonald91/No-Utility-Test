@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <Container fluid style={{height: 'auto', padding: '0px'}}>
     <img
-      style={{height: '100vh'}}
+      id="hero-img"
       className="d-block w-100"
       src={sample2}
       alt="hero_img"

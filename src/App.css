@@ -12,9 +12,7 @@
   width: 100%;
 }
 
-#hero-image {
+#hero-img {
   object-fit: fill;
   overflow: hidden;
-  width: 100%;
-  height: 90vh;
 }
