@@ -19,9 +19,9 @@ export default function Team() {
             </h4>
         </Container>
         <Row id='team-inner-container'>
-            <Col sm={4} md={6}>
+            <Col  md={6}>
             <Cards
-                width='55%'
+                width='65%'
                 image={wout} 
                 title='The Artist: Wout' 
                 text="NFT Artist | Professional Graphic Designer" 
@@ -30,9 +30,9 @@ export default function Team() {
                 thirdDetail="Foundation" 
                 />
             </Col>
-            <Col sm={4} md={6}>
+            <Col md={6}>
             <Cards
-                width='55%'
+                width='65%'
                 image={dnik} 
                 title='The Dev: D. McDonald' 
                 text="Front End Javascript Developer | Web3 Developer" 
