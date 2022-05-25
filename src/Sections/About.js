@@ -14,10 +14,10 @@ export default function About() {
             </Container>
         <Container fluid id='about-outer-container'>
           <Row id='about-inner-container'>
-            <Col sm={4}>
-               <DisplayCard img={sample2} />
+            <Col md={5}>
+               <DisplayCard width='100%' img={sample2} />
             </Col>
-            <Col sm={8}>
+            <Col md={7}>
                 <Container id='about-text-container'>
                   <Container id='about-text'>
                     <p>The No Utility Belt NFT project is primarily a art project created by NFT enthusiasts Wout and D. McDonald. The goal for this project is to give back to the NFT community in a small way. Lately in the market, we've seen so many people face difficulties in many different forms. Everything from rugpulls, to scams that drain your wallet and even Discord channels being hacked. All of this and much more from projects that promise the world and more. 

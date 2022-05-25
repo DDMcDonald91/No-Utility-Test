@@ -4,7 +4,7 @@ import ListGroupItem from 'react-bootstrap/ListGroupItem';
 
 export default function DisplayCard(props) {
   return (
-    <Card style={{ width: '100%' }}>
+    <Card style={{ width: `${props.width}` }}>
   <Card.Img variant="top" src={props.img} />
   <Card.Body>
     <Card.Title>No Utility Belts</Card.Title>
