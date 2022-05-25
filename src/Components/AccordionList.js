@@ -18,7 +18,7 @@ export default function AccordionList() {
   <Accordion.Item eventKey="2">
     <Accordion.Header>Availability</Accordion.Header>
     <Accordion.Body>
-      The No Utility Belts will have a supply of 1111 3D rendered art by professional NFT artist Wout. The traits will vary from hammers, screwdrivers, paintbrushes and more. 
+      The No Utility Belts will have a supply of 1111 3D rendered art by professional NFT artist Wout. The traits will vary from hammers, screwdrivers, paint brushes and more.
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="3">
@@ -34,7 +34,7 @@ export default function AccordionList() {
       <br/>
       This is a fun project that's free for people to obtain and enjoy...or flip into a profit. We want to be able to help add some profit to those whom mint.
       <br/>
-      Interestingly enough...the utility belts make great Twitter banners.
+      Interestingly enough...the utility belts make great Twitter banners. *hint* *hint*
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="5">

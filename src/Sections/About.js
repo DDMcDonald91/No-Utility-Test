@@ -20,8 +20,10 @@ export default function About() {
             <Col sm={8}>
                 <Container id='about-text-container'>
                   <Container id='about-text'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>          
+                    <p>The No Utility Belt NFT project is primarily a art project created by NFT enthusiasts Wout and D. McDonald. The goal for this project is to give back to the NFT community in a small way. Lately in the market, we've seen so many people face difficulties in many different forms. Everything from rugpulls, to scams that drain your wallet and even Discord channels being hacked. All of this and much more from projects that promise the world and more. 
+                    </p>
+                    <br/>
+                    <p>So in the spirit of giving back to the NFT space, we're delivering a project on the Ethereum blockchain that's FREE for people to mint. We encourage flipping your utility belt into a small profit or holding for the art. This project doesn't have any IRL benefits or anything for holding.</p>    
                   </Container>
                 </Container>
             </Col>

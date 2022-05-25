@@ -1,13 +1,13 @@
 import Container from 'react-bootstrap/Container';
-import sample2 from '../Components/Images/sample2.png';
+import sample7 from '../Components/Images/sample7.JPG';
 import { Parallax } from 'react-parallax';
 
 export default function Hero() {
   return (
-    <Parallax strength={300} bgImage={sample2} bgImageAlt="sample">
-    <Container id="hero-container">
-    </Container>
-
+    <Parallax strength={300} bgImage={sample7} bgImageAlt="sample">
+      <Container id="hero-container">
+      <h1 id='hero-title' className='section-title'>No Utility Belts</h1>
+      </Container>
     </Parallax>
   )
 }

@@ -18,8 +18,7 @@ export default function DisplayCard(props) {
     <ListGroupItem>Availability: Public</ListGroupItem>
   </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Twitter</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+    <Card.Link>Minting Soon!</Card.Link>
   </Card.Body>
 </Card>
   )

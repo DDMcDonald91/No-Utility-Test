@@ -2,9 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import AccordionList from '../Components/AccordionList';
 
-export default function FAQs() {
+export default function Roadmap() {
   return (
-    <Container fluid id='faqs-container'>
+    <Container fluid id='roadmap-container'>
       <Container>
         <h2 className='section-title'>Roadmap</h2>
         <h4>Flip it. Flip it good.  

@@ -2,14 +2,11 @@ import Cards from '../Components/Cards.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import background2 from '../Components/Images/background2.png';
 import dnik from '../Components/Images/dnik.png';
 import wout from '../Components/Images/wout.png';
-import { Parallax } from 'react-parallax';
 
 export default function Team() {
   return (
-    <Parallax strength={1000} bgImage={background2} bgImageAlt="sample">
     <Container id='team-container' fluid>
       <Container>
         <h1 className='section-title'>Team</h1 >
@@ -19,30 +16,29 @@ export default function Team() {
             </h4>
         </Container>
         <Row id='team-inner-container'>
-            <Col  md={6}>
+            <Col md={6}>
             <Cards
-                width='65%'
+                className='team-cards'
+                width='75%'
+                color='#a2d6d4'
+                address='https://www.twitter.com/wout_tgh'
                 image={wout} 
-                title='The Artist: Wout' 
+                title='The Founder/Artist: Wout' 
                 text="NFT Artist | Professional Graphic Designer" 
-                firstDetail="Twitter" 
-                secondDetail="Lynkfyire"                     
-                thirdDetail="Foundation" 
                 />
             </Col>
             <Col md={6}>
             <Cards
-                width='65%'
+                className='team-cards'
+                width='75%'
+                color='#e2c6fe'
+                address='https://www.twitter.com/dmcdonald1991'
                 image={dnik} 
                 title='The Dev: D. McDonald' 
                 text="Front End Javascript Developer | Web3 Developer" 
-                firstDetail="Twitter" 
-                secondDetail="LinkedIn"                     
-                thirdDetail="GitHub" 
                 />
             </Col>
         </Row>
     </Container>
-    </Parallax>
   )
 }

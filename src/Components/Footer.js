@@ -5,7 +5,7 @@ export default function Footer() {
         <>
     <Nav fluid style={{backgroundColor: 'black'}} className="justify-content-center" activeKey="/home">
       <Nav.Item>
-        <Nav.Link href="/home">Twitter</Nav.Link>
+        <Nav.Link href="https://www.twitter.com/NoUtilityBelts" target="_blank" rel="noreferrer noopener">Twitter</Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link eventKey="link-1">OpenSea</Nav.Link>
