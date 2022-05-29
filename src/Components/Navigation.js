@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FaTwitter } from 'react-icons/fa'; //twitter
+import Connection from './Connect.js';
 
 export default function Navigation() {
   return (
@@ -21,6 +22,7 @@ export default function Navigation() {
             <NavDropdown.Item href="#action/3.2">OpenSea</NavDropdown.Item>
           </NavDropdown>
         </Nav>
+        <Connection />
         <Nav.Link href="https://www.twitter.com/NoUtilityBelts" target="_blank" rel="noreferrer noopener"><FaTwitter /></Nav.Link>
       </Navbar.Collapse>
     </Container>
