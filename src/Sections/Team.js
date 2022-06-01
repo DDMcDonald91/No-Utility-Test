@@ -12,7 +12,7 @@ export default function Team() {
         <h1 className='section-title'>Team</h1 >
             <h4>The team of NFT enthusiasts behind this project.  
               <br/>
-              <div style={{backgroundColor: 'black', height: '2px', width: '25%', margin: '15px auto'}}></div>
+              <div style={{backgroundColor: 'black', height: '2px', width: '15%', margin: '5px auto'}}></div>
             </h4>
         </Container>
         <Row id='team-inner-container'>
@@ -20,7 +20,7 @@ export default function Team() {
             <Cards
                 className='team-cards'
                 width='75%'
-                color='#a2d6d4'
+                color='white'
                 address='https://www.twitter.com/wout_tgh'
                 image={wout} 
                 title='The Founder/Artist: Wout' 
@@ -31,7 +31,7 @@ export default function Team() {
             <Cards
                 className='team-cards'
                 width='75%'
-                color='#e2c6fe'
+                color='white'
                 address='https://www.twitter.com/dmcdonald1991'
                 image={dnik} 
                 title='The Dev: D. McDonald' 

@@ -5,7 +5,6 @@ import Footer from './Components/Footer.js';
 import Hero from './Sections/Hero.js';
 import About from './Sections/About.js';
 import Team from './Sections/Team.js';
-import Gallery from './Sections/Gallery.js';
 import ParallaxGallery from './Sections/ParallaxGallery.js';
 import Roadmap from './Sections/Roadmap.js';
 
@@ -16,8 +15,8 @@ function App() {
       <Navigation />
       <Hero />
       <About />
-      <Team />
       <ParallaxGallery />
+      <Team />
       <Roadmap />
       <Footer />
     </div>

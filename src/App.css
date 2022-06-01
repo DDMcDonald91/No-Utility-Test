@@ -6,10 +6,11 @@
 body {
   margin: 0px;
   padding: 0px;
+  color: white;
 }
 
 .section-title {
-  font-family: 'Odibee Sans', cursive;
+  font-family: 'Bebas Neue', cursive;
   font-size: 6rem;
 }
 
@@ -44,10 +45,14 @@ body {
 #about-container {
   height: auto;
   width: 100vw;
-  background-color: aliceblue;
+  background-color: #1D1D1E;
   justify-content: center;
   align-items: center;
   padding: 3rem 0;
+}
+
+.white-titles {
+  color: white;
 }
 
 #about-outer-container {
@@ -68,7 +73,7 @@ body {
 /* Team CSS */
 
 #team-container {
-  background-color: #FF6961;
+  background-color: white;
   height: auto; 
   width: 100vw;
   padding: 3rem 0px;  
@@ -105,7 +110,7 @@ body {
 #roadmap-container {
   height: auto;
   width: 100vw;
-  background-color: rgb(162 172 221);
+  background-color: #1D1D1E;
   padding: 3rem 0px;
 }
 
