@@ -4,9 +4,11 @@ import { Parallax } from 'react-parallax';
 
 export default function Hero() {
   return (
-    <Parallax strength={200} bgImage={utilitybelthero} bgImageAlt="sample">
+    <Parallax strength={100} bgImage={utilitybelthero} bgImageAlt="sample">
       <Container id="hero-container">
-        <h1 id="hero-title" className='section-title'>No Utility Belts</h1>
+        <Container id='hero-title-container'>
+        <h1 id="hero-title">No Utility Belts</h1>
+        </Container>
       </Container>
     </Parallax>
   )

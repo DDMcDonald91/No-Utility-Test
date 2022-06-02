@@ -1,7 +1,33 @@
-import Accordion from 'react-bootstrap/Accordion';
+import '../App.css';
+import { Accordion } from 'react-bootstrap/';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function AccordionList() {
   return (
+    <>
+      <style type="text/css">
+        {`
+          .accordion-button {
+            background: #1D1D1E;
+            color: white;
+          }
+          .accordion-button:not(.collapsed) {
+            background: #1D1D1E;
+            color: white;
+          }
+        
+          .accordion-item {
+            background: white;
+            color: white;
+          }
+          
+          .accordion-body {
+            background: #1D1D1E;
+          }
+    `   }
+      </style>
+
     <Accordion defaultActiveKey="0" flush>
   <Accordion.Item eventKey="0">
     <Accordion.Header>Price</Accordion.Header>
@@ -28,29 +54,12 @@ export default function AccordionList() {
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="4">
-    <Accordion.Header>Utility</Accordion.Header>
-    <Accordion.Body>
-      The utility for this NFT is to flip.
-      <br/>
-      This is a fun project that's free for people to obtain and enjoy...or flip into a profit. We want to be able to help add some profit to those whom mint.
-      <br/>
-      Interestingly enough...the utility belts make great Twitter banners. *hint* *hint*
-    </Accordion.Body>
-  </Accordion.Item>
-  <Accordion.Item eventKey="5">
     <Accordion.Header>Reveal</Accordion.Header>
     <Accordion.Body>
       No Utility Belts reveal will be automatic. As soon as you mint, you can view your new NFT on OpenSea. We don't believe in prolonging the excitement. Just refresh the metadata if your NFT isn't revealed yet.
     </Accordion.Body>
   </Accordion.Item>
-  <Accordion.Item eventKey="6">
-    <Accordion.Header>Future Plans</Accordion.Header>
-    <Accordion.Body>
-      Currently we are not promising anything at all. We just want to be able to give back to the NFT community in a small way. Mint and flip for a profit or hold for the art and cool Twitter banner.
-      <br/>
-      Thats the true "utility" of the No Utility Belts project.
-    </Accordion.Body>
-  </Accordion.Item>
 </Accordion>
+</>
   )
 }

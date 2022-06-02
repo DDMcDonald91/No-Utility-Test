@@ -6,7 +6,7 @@ import Hero from './Sections/Hero.js';
 import About from './Sections/About.js';
 import Team from './Sections/Team.js';
 import ParallaxGallery from './Sections/ParallaxGallery.js';
-import Roadmap from './Sections/Roadmap.js';
+import Utility from './Sections/Utility.js';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <About />
       <ParallaxGallery />
       <Team />
-      <Roadmap />
+      <Utility />
       <Footer />
     </div>
   );

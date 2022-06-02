@@ -6,12 +6,12 @@
 body {
   margin: 0px;
   padding: 0px;
-  color: white;
 }
 
 .section-title {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 6rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
 }
 
 
@@ -36,7 +36,20 @@ body {
 }
 
 #hero-title {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  padding-bottom: 2px;
+  margin: 0px;
+}
+
+
+#hero-title-container {
   padding: 15rem 0px;
+} 
+
+.white-titles {
+  color: white;
 }
 
 
@@ -51,17 +64,8 @@ body {
   padding: 3rem 0;
 }
 
-.white-titles {
-  color: white;
-}
-
-#about-outer-container {
-  padding-top: 20px;
-  margin: 0px auto;
-}
-
 #about-inner-container {
-  width: 95%;
+  width: 55%;
   margin: 10px auto;
 }
 
@@ -81,7 +85,7 @@ body {
 }
 
 #team-inner-container {
-  width: 80%; 
+  width: 80%;
   margin: 0px auto;
 }
 
@@ -105,9 +109,9 @@ body {
   overflow: hidden;
 }
 
-/* Roadmap CSS */
+/* utility CSS */
 
-#roadmap-container {
+#utility-container {
   height: auto;
   width: 100vw;
   background-color: #1D1D1E;
@@ -117,6 +121,17 @@ body {
 #faqs-inner-container {
   width: 70%;
   margin: auto auto;
+}
+
+.accordion {
+  background-color: #1D1D1E;
+}
+
+.accordion-header{
+  background: #1D1D1E;
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
 /* Custom Media Queries */

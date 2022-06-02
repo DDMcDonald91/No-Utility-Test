@@ -6,7 +6,7 @@ import './../App.css';
 export default function Cards(props) {
   return (
     <>
-  <Card style={{ width: `${props.width}`, margin: '10px auto', border: 'none', backgroundColor: `${props.color}` }}>
+  <Card style={{ width: `${props.width}`, margin: '10px auto', border: 'none', backgroundColor: `${props.color}`}}>
   <Card.Img id="card-image" variant="top" src={props.image} />
   <Card.Body>
   </Card.Body>
