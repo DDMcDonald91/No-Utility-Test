@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/No-Utility-Test/static/css/main.7095c920.css",
-    "main.js": "/No-Utility-Test/static/js/main.4ae9721b.js",
+    "main.css": "/No-Utility-Test/static/css/main.551acee6.css",
+    "main.js": "/No-Utility-Test/static/js/main.8fcb524e.js",
     "static/media/gallerygrid.PNG": "/No-Utility-Test/static/media/gallerygrid.9e3f63bc7e2f7d33b28c.PNG",
     "static/media/utilitybelthero.PNG": "/No-Utility-Test/static/media/utilitybelthero.155834b2d6f0534bb44c.PNG",
     "static/media/dnik.png": "/No-Utility-Test/static/media/dnik.b73a01f94a690c6f036f.png",
+    "static/media/bahnschrift.ttf": "/No-Utility-Test/static/media/bahnschrift.23b347dac5478c8b4500.ttf",
     "static/media/wout.png": "/No-Utility-Test/static/media/wout.abc91d971e0b5ac36660.png",
+    "static/media/avantGardeBold.otf": "/No-Utility-Test/static/media/avantGardeBold.c2f12abc388bc669e00c.otf",
     "index.html": "/No-Utility-Test/index.html",
-    "main.7095c920.css.map": "/No-Utility-Test/static/css/main.7095c920.css.map",
-    "main.4ae9721b.js.map": "/No-Utility-Test/static/js/main.4ae9721b.js.map"
+    "main.551acee6.css.map": "/No-Utility-Test/static/css/main.551acee6.css.map",
+    "main.8fcb524e.js.map": "/No-Utility-Test/static/js/main.8fcb524e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7095c920.css",
-    "static/js/main.4ae9721b.js"
+    "static/css/main.551acee6.css",
+    "static/js/main.8fcb524e.js"
   ]
 }
