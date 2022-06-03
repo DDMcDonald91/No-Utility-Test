@@ -1,6 +1,6 @@
 * {
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: myBodyFont;
 }
 
 body {
@@ -8,8 +8,18 @@ body {
   padding: 0px;
 }
 
+@font-face {
+  font-family: myBodyFont;
+  src: url('./Components/bahnschrift.ttf');
+}
+
+@font-face {
+  font-family: myTitleFont;
+  src: url('./Components/avantGardeBold.otf');
+}
+
 .section-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: myTitleFont;
   text-transform: uppercase;
   font-size: 3rem;
 }
@@ -36,9 +46,9 @@ body {
 }
 
 #hero-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: myTitleFont;
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 6.1rem;
   padding-bottom: 2px;
   margin: 0px;
 }
@@ -61,7 +71,7 @@ body {
   background-color: #1D1D1E;
   justify-content: center;
   align-items: center;
-  padding: 3rem 0;
+  padding: 3.2rem 0;
 }
 
 #about-inner-container {
@@ -87,6 +97,10 @@ body {
 #team-inner-container {
   width: 80%;
   margin: 0px auto;
+}
+
+.team-title {
+  font-family: myBodyFont;
 }
 
 /* Gallery CSS */
@@ -124,7 +138,7 @@ body {
 }
 
 .accordion {
-  background-color: #1D1D1E;
+  background: #1D1D1E;
 }
 
 .accordion-header{
@@ -137,9 +151,6 @@ body {
 /* Custom Media Queries */
 
 @media only screen and (max-width: 768px) {
-  .team-cards {
-    width: 95%;
-  }
   #about-text-container {
     padding-top: 30px;
   }

@@ -15,6 +15,8 @@ export default function AccordionList() {
           .accordion-button:not(.collapsed) {
             background: #1D1D1E;
             color: white;
+            outline: none;
+            box-shadow: none;
           }
         
           .accordion-item {
@@ -42,7 +44,7 @@ export default function AccordionList() {
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="2">
-    <Accordion.Header>Availability</Accordion.Header>
+    <Accordion.Header>Supply</Accordion.Header>
     <Accordion.Body>
       The No Utility Belts will have a supply of 1111 3D rendered art by professional NFT artist Wout. The traits will vary from hammers, screwdrivers, paint brushes and more.
     </Accordion.Body>

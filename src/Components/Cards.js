@@ -12,7 +12,7 @@ export default function Cards(props) {
   </Card.Body>
 </Card>
     <Container>
-      <h4>{props.title}</h4>
+      <h4 className='team-title'>{props.title}</h4>
       <p>{props.text}</p>
     <a href={props.address} target="_blank" rel="noreferrer noopener"><AiFillTwitterCircle style={{fontSize: '3rem'}} /></a>
     </Container>

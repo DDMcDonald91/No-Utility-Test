@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 export default function Footer() {
   return (
         <>
-    <Nav fluid style={{backgroundColor: 'black'}} className="justify-content-center" activeKey="/home">
+    <Nav fluid style={{backgroundColor: 'black', width: '100vw'}} className="justify-content-center" activeKey="/home">
       <Nav.Item>
         <Nav.Link href="https://www.twitter.com/NoUtilityBelts" target="_blank" rel="noreferrer noopener">Twitter</Nav.Link>
       </Nav.Item>

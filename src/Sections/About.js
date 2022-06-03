@@ -9,17 +9,15 @@ export default function About() {
             <h1 className='section-title white-titles'>
               About
             </h1>
-            <Container style={{width: '80%', color: 'white'}}>
+            </Container>
+        <Container style={{width: '65%'}} id='about-inner-container'>
+            <Container style={{width: '100%', color: 'white'}}>
             <p>NO UTILITY BELTS is a free-to-mint project created by NFT enthusiasts Wout and D. McDonald. No Discord. No Grinding. And you guessed it.
               No Utility.
               Mint for free, flip for profit, or hold for the art. Click below for more specific info.
             </p>
             </Container>
-            </Container>
-        <Container id='about-inner-container'>
-                <Container>
                   <AccordionList />
-                </Container>
       </Container>
     </Container>
   )
