@@ -11,21 +11,34 @@ export default function AccordionList() {
           .accordion-button {
             background: #1D1D1E;
             color: white;
+            outline: 0;;
+          }
+          .accordion-button:active {
+            outline: 0;;
           }
           .accordion-button:not(.collapsed) {
             background: #1D1D1E;
             color: white;
-            outline: none;
+            outline: 0;
+            box-shadow: none;
+          }
+          .accordion-button.collapsed { 
+            outline: 0;
+          }
+          .accordion-button:focus {
+            outline: 0;
             box-shadow: none;
           }
         
           .accordion-item {
             background: white;
             color: white;
+            outline: 0;
           }
           
           .accordion-body {
             background: #1D1D1E;
+            outline: 0;
           }
     `   }
       </style>
