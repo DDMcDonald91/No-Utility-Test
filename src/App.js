@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Web from 'web3';
 import Navigation from './Components/Navigation.js';
 import Footer from './Components/Footer.js';
 import Hero from './Sections/Hero.js';
@@ -10,6 +11,7 @@ import Utility from './Sections/Utility.js';
 
 
 function App() {
+  let Web3 = require('web3');
   return (
     <div className="App">
       <Navigation />
