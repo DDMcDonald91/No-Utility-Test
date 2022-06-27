@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { AiOutlineTwitter } from 'react-icons/ai'; //twitter
-import Connection from './Connect.js';
+import Mint from './Mint.js';
 
 export default function Navigation() {
   return (
@@ -21,7 +21,7 @@ export default function Navigation() {
             <NavDropdown.Item href="#action/3.2">OpenSea</NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        <Connection />
+        <Mint />
         <Nav.Link href="https://www.twitter.com/NoUtilityBelts" target="_blank" rel="noreferrer noopener"><AiOutlineTwitter style={{fontSize: '1.7rem'}} /></Nav.Link>
       </Navbar.Collapse>
     </Container>
