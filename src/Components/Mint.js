@@ -586,18 +586,19 @@ export default function Connect() {
       const accountSupply = await contract.methods.balanceOf(account).call().then((result) => {return result;});
 
     //Minting Function
-      if(window.ethereum && account && accountSupply === 0 ) {
+      if(window.ethereum && account && accountSupply < 1) {
         console.log(account);
+        console.log(accountSupply);
         contract.methods.safeMint(account).send({ from: account, value: "0" });
-        handleSuccessMessage();
-      } else if (accountSupply >= 1) {
+      } else if (window.ethereum && account && accountSupply >= 1) {
         console.log(contractSupply, accountSupply);
         handleLimitMessage();
-      } else if (contractSupply === 1111) {
+      } else if (window.ethereum && contractSupply === 1111) {
         console.log(contractSupply);
         handleMaxMessage();
       }
        else {
+        console.log(account)
         console.log(accountSupply)
         console.log("Ran into an issue...");
         handleErrorMessage();
@@ -605,7 +606,7 @@ export default function Connect() {
     }
 
     const handleSuccessMessage = () => {
-      setMessage("Congrats! Minting was a success. Check you wallet on OpenSea to view your Utility Belt.")
+      setMessage("Congrats! Minting was a success. Check your wallet on OpenSea to view your Utility Belt.")
     }
     const handleLimitMessage = () => {
         setMessage("We're sorry, but our systems show you've either minted or already own a NFT from this collection during the minting period.")
