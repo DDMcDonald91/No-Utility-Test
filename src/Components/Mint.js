@@ -589,6 +589,7 @@ export default function Connect() {
       if(window.ethereum && account && accountSupply === 0 ) {
         console.log(account);
         contract.methods.safeMint(account).send({ from: account, value: "0" });
+        handleSuccessMessage();
       } else if (accountSupply >= 1) {
         console.log(contractSupply, accountSupply);
         handleLimitMessage();
@@ -603,6 +604,9 @@ export default function Connect() {
       }
     }
 
+    const handleSuccessMessage = () => {
+      setMessage(`Congrats! Minting was a success. Check you wallet on OpenSea to view your Utility Belt. Minting Account: ${account}`)
+    }
     const handleLimitMessage = () => {
         setMessage("We're sorry, but our systems show you've either minted or already own a NFT from this collection during the minting period.")
     }
