@@ -605,7 +605,7 @@ export default function Connect() {
     }
 
     const handleSuccessMessage = () => {
-      setMessage("Congrats! Minting was a success. Check you wallet on OpenSea to view your Utility Belt. Minting Account:", {account})
+      setMessage("Congrats! Minting was a success. Check you wallet on OpenSea to view your Utility Belt.")
     }
     const handleLimitMessage = () => {
         setMessage("We're sorry, but our systems show you've either minted or already own a NFT from this collection during the minting period.")
