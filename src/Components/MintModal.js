@@ -35,8 +35,12 @@ export default function MintModal(props) {
             </p>
             <br/>
             <p>Remaining NFTs Available:<br/> {props.count}/1111</p>
-            <p style={{color: 'red'}}>{props.message}</p>
-            <Button variant="primary" onClick={props.mint}>Mint a NFT</Button>
+            <Container style={{width: 'auto'}}>
+            <p>{props.isLoading}</p>
+            <p>{props.message}</p>
+            <p style={{wordWrap: 'break-word'}}>Your Transaction Hash is: <span style={{textDecoration: 'underline'}}>{props.transaction}</span></p>
+            </Container>
+            <Button variant="primary" onClick={props.mint} id='mintBtn' className={props.disabled}>Mint a NFT</Button>
           </Modal.Body>
         </Modal>
       </>
