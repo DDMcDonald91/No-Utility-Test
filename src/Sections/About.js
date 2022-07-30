@@ -1,5 +1,4 @@
 import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
 import AccordionList from '../Components/AccordionList';
 
 export default function About() {

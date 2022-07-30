@@ -7,7 +7,7 @@ import Mint from './Mint.js';
 
 export default function Navigation() {
   return (
-    <Navbar style={{backgroundColor: 'black', top: '0', position: 'fixed', zIndex: '100', width: '100vw', padding: '10px 0px' }} variant='dark' expand="lg">
+    <Navbar style={{backgroundColor: 'black', top: '0', position: 'fixed', zIndex: '100', width: '100vw', padding: '5px 0px' }} variant='dark' expand="lg">
     <Container style={{width: '65%'}}>
       <Navbar.Brand className="section-title" href="#hero-container">No Utility Belts</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

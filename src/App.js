@@ -10,6 +10,7 @@ import Team from './Sections/Team.js';
 import ParallaxGallery from './Sections/ParallaxGallery.js';
 import Utility from './Sections/Utility.js';
 import Loading from './Components/Loading';
+import SlideshowGallery from './Sections/SlideshowGallery';
 
 function App() {
   let Web3 = require('web3');
@@ -29,7 +30,7 @@ function App() {
       <Navigation />
       <Hero />
       <About />
-      <ParallaxGallery />
+      <SlideshowGallery />
       <Team />
       <Utility />
       <Footer />

@@ -1,5 +1,4 @@
 import {useState} from 'react';
-import gallerygrid from './Images/gallerygrid.PNG';
 import {Button, Modal, Container} from 'react-bootstrap';
 
 export default function MintModal(props) {
@@ -23,10 +22,6 @@ export default function MintModal(props) {
             </Modal.Title>
           </Modal.Header>
           <Modal.Body id="modalBody">
-          <Container style={{width: '100%', height: '35%', marginBottom: '10px', padding: '0'}}>
-            <img src={gallerygrid} width='100%' height='100%' alt='gallery'/>
-          </Container>
-            <p>Use the button below to mint a No Utility Belts NFT. Remember, your NFT will be able to be viewed shortly after minting. Make sure to check OpenSea.</p>
             <p>
             Mint Cost:<br/> Free + Gas.
             <br/>

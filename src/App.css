@@ -41,7 +41,7 @@ body {
 /* Hero CSS */
 
 #hero-container {
-  height: 100vh;
+  height: auto;
   width: 100vw;
 }
 
@@ -68,7 +68,7 @@ body {
 #about-container {
   height: auto;
   width: 100vw;
-  background-color: #1D1D1E;
+  background-color: black; /* Old Color: #1D1D1E */
   justify-content: center;
   align-items: center;
   padding: 3.2rem 0;
@@ -123,12 +123,17 @@ body {
   overflow: hidden;
 }
 
+/* Slideshow Gallery CSS */
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators { visibility: hidden; }
+
 /* utility CSS */
 
 #utility-container {
   height: auto;
   width: 100vw;
-  background-color: #1D1D1E;
+  background-color: black; /* Old Color: #1D1D1E */
   padding: 3rem 0px;
 }
 
@@ -160,7 +165,6 @@ body {
   background-color: #1D1D1E;
   color: white;
 }
-
 
 /* Custom Media Queries */
 
