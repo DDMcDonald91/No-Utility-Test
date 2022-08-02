@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container'
-import { AiOutlineTwitter } from 'react-icons/ai';
+import { TiSocialTwitterCircular } from 'react-icons/ti'; // twitter
 import './../App.css';
 
 export default function Cards(props) {
@@ -14,7 +14,7 @@ export default function Cards(props) {
     <Container>
       <h4 className='team-title'>{props.title}</h4>
       <p>{props.text}</p>
-    <a href={props.address} target="_blank" rel="noreferrer noopener"><AiOutlineTwitter style={{fontSize: '3rem'}} /></a>
+    <a href={props.address} target="_blank" rel="noreferrer noopener"><TiSocialTwitterCircular style={{fontSize: '3rem', color: '#0d6efd'}} /></a>
     </Container>
     </>
   )

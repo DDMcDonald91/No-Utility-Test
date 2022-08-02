@@ -10,6 +10,7 @@ export default function Footer() {
     `   }
         </style>
     <Nav fluid style={{backgroundColor: 'black', width: '100vw'}} className="justify-content-center nav" activeKey="/home">
+      <p style={{margin: 'auto 16px', color: 'white'}}>© 2022 No Utility Belts</p>
       <Nav.Item>
         <Nav.Link href="https://www.twitter.com/NoUtilityBelts" target="_blank" rel="noreferrer noopener">Twitter</Nav.Link>
       </Nav.Item>

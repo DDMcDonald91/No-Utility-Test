@@ -6,6 +6,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -41,14 +42,17 @@ body {
 /* Hero CSS */
 
 #hero-container {
-  height: auto;
+  min-height: 50vh;
   width: 100vw;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #hero-title {
   font-family: myTitleFont;
   text-transform: uppercase;
-  font-size: 6.1rem;
+  font-size: 5rem;
   padding-bottom: 2px;
   margin: 0px;
 }
@@ -66,7 +70,7 @@ body {
 /* About CSS */
 
 #about-container {
-  height: auto;
+  min-height: 40vh;
   width: 100vw;
   background-color: black; /* Old Color: #1D1D1E */
   justify-content: center;
@@ -88,7 +92,7 @@ body {
 
 #team-container {
   background-color: white;
-  height: auto; 
+  min-height: 40vh; 
   width: 100vw;
   padding: 3rem 0px;  
   color: black;
@@ -125,8 +129,12 @@ body {
 
 /* Slideshow Gallery CSS */
 .carousel-control-prev-icon,
-.carousel-control-next-icon,
-.carousel-indicators { visibility: hidden; }
+.carousel-control-next-icon { visibility: hidden; }
+.carousel-indicators button {
+  width: 10px!important;
+  height: 10px!important;
+  border-radius: 50%;
+}
 
 /* utility CSS */
 
@@ -171,5 +179,8 @@ body {
 @media only screen and (max-width: 768px) {
   #about-text-container {
     padding-top: 30px;
+  }
+  #hero-title {
+    font-size: 3.5rem;
   }
 }

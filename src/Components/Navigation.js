@@ -2,7 +2,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { AiOutlineTwitter } from 'react-icons/ai'; //twitter
+import { TiSocialTwitterCircular } from 'react-icons/ti' //twitter
 import Mint from './Mint.js';
 
 export default function Navigation() {
@@ -22,7 +22,7 @@ export default function Navigation() {
           </NavDropdown>
         </Nav>
         <Mint />
-        <Nav.Link href="https://www.twitter.com/NoUtilityBelts" target="_blank" rel="noreferrer noopener"><AiOutlineTwitter style={{fontSize: '1.7rem'}} /></Nav.Link>
+        <Nav.Link href="https://www.twitter.com/NoUtilityBelts" target="_blank" rel="noreferrer noopener"><TiSocialTwitterCircular style={{fontSize: '2rem', color: '#0d6efd'}} /></Nav.Link>
       </Navbar.Collapse>
     </Container>
   </Navbar>
