@@ -21,8 +21,12 @@ export default function Navigation() {
             <NavDropdown.Item href="#action/3.2">OpenSea</NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        <Mint />
-        <Nav.Link href="https://www.twitter.com/NoUtilityBelts" target="_blank" rel="noreferrer noopener"><TiSocialTwitterCircular style={{fontSize: '2rem', color: '#0d6efd'}} /></Nav.Link>
+        <Nav>
+          <NavDropdown title="Mint" id="basic-nav-dropdown">
+            <NavDropdown.Item><Mint /></NavDropdown.Item>
+            <NavDropdown.Item href="https://www.twitter.com/NoUtilityBelts" target="_blank" rel="noreferrer noopener"><TiSocialTwitterCircular style={{fontSize: '2rem', color: '#0d6efd'}} /></NavDropdown.Item>
+          </NavDropdown>
+        </Nav>
       </Navbar.Collapse>
     </Container>
   </Navbar>
