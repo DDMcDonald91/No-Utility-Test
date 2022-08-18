@@ -17,15 +17,15 @@ export default function Navigation() {
           <Nav.Link href="#about-container">About</Nav.Link>
           <Nav.Link href="#team-container">Team</Nav.Link>
           <NavDropdown title="Contract Info" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Contract</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">OpenSea</NavDropdown.Item>
+            <NavDropdown.Item href="/">Contract</NavDropdown.Item>
+            <NavDropdown.Item href="/">OpenSea</NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav>
           <NavDropdown title="Mint" id="basic-nav-dropdown">
             <NavDropdown.Item><Mint /></NavDropdown.Item>
-            <NavDropdown.Item href="https://www.twitter.com/NoUtilityBelts" target="_blank" rel="noreferrer noopener"><TiSocialTwitterCircular style={{fontSize: '2rem', color: '#0d6efd'}} /></NavDropdown.Item>
           </NavDropdown>
+          <Nav.Link href="https://www.twitter.com/NoUtilityBelts" target="_blank" rel="noreferrer noopener"><TiSocialTwitterCircular style={{fontSize: '2rem', color: '#0d6efd'}} /></Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

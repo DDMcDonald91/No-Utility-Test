@@ -43,7 +43,7 @@ export default function AccordionList() {
     `   }
       </style>
 
-    <Accordion defaultActiveKey="0" flush>
+    <Accordion flush>
   <Accordion.Item eventKey="0">
     <Accordion.Header>Price</Accordion.Header>
     <Accordion.Body>

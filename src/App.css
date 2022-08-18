@@ -42,7 +42,7 @@ body {
 /* Hero CSS */
 
 #hero-container {
-  min-height: 50vh;
+  min-height: 60vh;
   width: 100vw;
   background-position: bottom;
   background-size: cover;
@@ -70,7 +70,7 @@ body {
 /* About CSS */
 
 #about-container {
-  min-height: 40vh;
+  min-height: 60vh;
   width: 100vw;
   background-color: black; /* Old Color: #1D1D1E */
   justify-content: center;
@@ -92,7 +92,7 @@ body {
 
 #team-container {
   background-color: white;
-  min-height: 40vh; 
+  min-height: 60vh; 
   width: 100vw;
   padding: 3rem 0px;  
   color: black;
