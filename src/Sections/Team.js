@@ -7,13 +7,14 @@ import wout from '../Components/Images/wout.png';
 
 export default function Team() {
   return (
-    <Container id='team-container' fluid>
+    <Container id='team-container' className='d-flex align-items-center justify-content-center' fluid>
+      <Container>
       <Container>
         <h1 className='section-title'>Team</h1>  
               <div style={{backgroundColor: 'white', height: '2px', width: '15%', margin: '5px auto'}}></div>
         </Container>
         <Row id='team-inner-container' className='justify-content-center'>
-            <Col sm={4}>
+            <Col sm={8} md={6}>
             <Cards
                 className='team-cards'
                 width='75%'
@@ -24,7 +25,7 @@ export default function Team() {
                 text="Founder & Artist" 
                 />
             </Col>
-            <Col sm={4}>
+            <Col sm={8} md={6}>
             <Cards
                 className='team-cards'
                 width='75%'
@@ -36,6 +37,7 @@ export default function Team() {
                 />
             </Col>
         </Row>
+    </Container>
     </Container>
   )
 }

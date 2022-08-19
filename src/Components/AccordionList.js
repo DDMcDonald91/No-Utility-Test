@@ -9,7 +9,7 @@ export default function AccordionList() {
       <style type="text/css">
         {`
           .accordion-button {
-            background: black;
+            background: #303030;
             color: white;
             outline: 0;;
           }
@@ -17,7 +17,7 @@ export default function AccordionList() {
             outline: 0;;
           }
           .accordion-button:not(.collapsed) {
-            background: black;
+            background: #303030;
             color: white;
             outline: 0;
             box-shadow: none;
@@ -31,13 +31,13 @@ export default function AccordionList() {
           }
         
           .accordion-item {
-            background: white;
+            background: #303030;
             color: white;
             outline: 0;
           }
           
           .accordion-body {
-            background: black;
+            background: #303030;
             outline: 0;
           }
     `   }

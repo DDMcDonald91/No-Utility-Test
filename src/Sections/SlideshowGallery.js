@@ -7,7 +7,7 @@ import sample3 from '../Components/Images/sample3.JPG'
 
 function SlideshowGallery() {
   return (
-    <Container fluid style={{ padding: 0 }}>
+    <Container className='p-0' fluid style={{ padding: 0 }}>
         <Carousel fade>
             <Carousel.Item interval={2000}>
                 <img
