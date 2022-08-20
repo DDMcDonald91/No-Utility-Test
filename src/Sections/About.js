@@ -10,7 +10,7 @@ export default function About() {
               About
             </h1>
           </div>
-        <Container id='about-inner-container'>
+        <Container fluid className='p-0' id='about-inner-container'>
             <Container style={{width: '100%', color: 'white'}}>
             <p>NO UTILITY BELTS is a free-to-mint project created by NFT enthusiasts Wout and D. McDonald. No Discord. No Grinding. And you guessed it.
               No Utility.
