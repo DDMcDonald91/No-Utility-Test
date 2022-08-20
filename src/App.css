@@ -48,7 +48,7 @@ body {
 #hero-container {
   min-height: 35rem;
   width: 100vw;
-  background-position: top;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url('./Components/Images/utilitybelthero.PNG');
