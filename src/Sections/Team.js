@@ -13,7 +13,7 @@ export default function Team() {
         <h1 className='section-title'>Team</h1>  
         </Container>
         <Row id='team-inner-container' className='justify-content-center'>
-            <Col sm={6} md={4}>
+            <Col sm={4} md={3}>
             <Cards
                 className='team-cards'
                 width='75%'
@@ -24,7 +24,7 @@ export default function Team() {
                 text="Founder & Artist" 
                 />
             </Col>
-            <Col sm={6} md={4}>
+            <Col sm={4} md={3}>
             <Cards
                 className='team-cards'
                 width='75%'
