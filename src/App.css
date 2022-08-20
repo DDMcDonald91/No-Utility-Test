@@ -84,6 +84,7 @@ body {
   background-color: #303030; /* Old Color: #1D1D1E */
   justify-content: center;
   align-items: center;
+  padding: 5px 0px;
 }
 
 #about-inner-container {
