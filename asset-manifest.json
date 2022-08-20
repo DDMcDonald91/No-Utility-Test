@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/No-Utility-Test/static/css/main.e514f5ec.css",
-    "main.js": "/No-Utility-Test/static/js/main.b3ac5828.js",
+    "main.css": "/No-Utility-Test/static/css/main.bcd035ae.css",
+    "main.js": "/No-Utility-Test/static/js/main.af38bba0.js",
     "static/media/utilitybelthero.PNG": "/No-Utility-Test/static/media/utilitybelthero.155834b2d6f0534bb44c.PNG",
     "static/media/dnik.png": "/No-Utility-Test/static/media/dnik.b73a01f94a690c6f036f.png",
     "static/media/bahnschrift.ttf": "/No-Utility-Test/static/media/bahnschrift.23b347dac5478c8b4500.ttf",
@@ -13,11 +13,11 @@
     "static/media/sample6.JPG": "/No-Utility-Test/static/media/sample6.ed9aefeae305e7dc5f09.JPG",
     "static/media/avantGardeBold.otf": "/No-Utility-Test/static/media/avantGardeBold.c2f12abc388bc669e00c.otf",
     "index.html": "/No-Utility-Test/index.html",
-    "main.e514f5ec.css.map": "/No-Utility-Test/static/css/main.e514f5ec.css.map",
-    "main.b3ac5828.js.map": "/No-Utility-Test/static/js/main.b3ac5828.js.map"
+    "main.bcd035ae.css.map": "/No-Utility-Test/static/css/main.bcd035ae.css.map",
+    "main.af38bba0.js.map": "/No-Utility-Test/static/js/main.af38bba0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e514f5ec.css",
-    "static/js/main.b3ac5828.js"
+    "static/css/main.bcd035ae.css",
+    "static/js/main.af38bba0.js"
   ]
 }
