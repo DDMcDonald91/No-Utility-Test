@@ -11,10 +11,9 @@ export default function Team() {
       <Container>
       <Container>
         <h1 className='section-title'>Team</h1>  
-              <div style={{backgroundColor: 'white', height: '2px', width: '15%', margin: '5px auto'}}></div>
         </Container>
         <Row id='team-inner-container' className='justify-content-center'>
-            <Col sm={7} md={6}>
+            <Col sm={6} md={4}>
             <Cards
                 className='team-cards'
                 width='75%'
@@ -25,7 +24,7 @@ export default function Team() {
                 text="Founder & Artist" 
                 />
             </Col>
-            <Col sm={7} md={6}>
+            <Col sm={6} md={4}>
             <Cards
                 className='team-cards'
                 width='75%'
